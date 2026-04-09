@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Betcha Services</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* MENU */
+nav {
+    background: #0a2a66;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #0a2a66, #1e90ff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0a2a66;
+}
+
+/* BOX */
+.box {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.03);
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a2a66;
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- MENU -->
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#prix">Prix</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <h1>Betcha Services</h1>
+    <p>Rédaction LaTeX professionnelle pour étudiants</p>
+    <br>
+    <a class="btn" href="https://wa.me/22951976427?text=Bonjour%20je%20suis%20intéressé%20par%20vos%20services">Contact WhatsApp</a>
+</header>
+
+<section>
+    <h2>🎯 Pourquoi me choisir ?</h2>
+    <div class="box">
+        ✔️ Travail professionnel  
+        ✔️ Livraison rapide  
+        ✔️ Accompagnement jusqu’à la soutenance  
+    </div>
+</section>
+
+<section id="services">
+    <h2>📌 Mes services</h2>
+
+    <div class="box">
+        <h3>📄 Rédaction de mémoire</h3>
+        <p>Documents prêts pour soutenance.</p>
+        <p><strong>💰 À partir de 20 000 FCFA</strong></p>
+    </div>
+
+    <div class="box">
+        <h3>✍️ Correction & mise en forme</h3>
+        <p>Amélioration complète.</p>
+        <p><strong>💰 À partir de 5 000 FCFA</strong></p>
+    </div>
+
+    <div class="box">
+        <h3>📊 Analyse statistique</h3>
+        <p>Tests + interprétation.</p>
+        <p><strong>💰 À partir de 10 000 FCFA</strong></p>
+    </div>
+</section>
+
+<section id="prix">
+    <h2>💰 Offres</h2>
+    <div class="box">
+        🎓 Pack Mémoire complet : 25 000 FCFA  
+        📄 Mise en forme simple : 5 000 FCFA  
+        📊 Analyse + rédaction : 15 000 FCFA  
+    </div>
+</section>
+
+<section>
+    <h2>⭐ Témoignages</h2>
+    <div class="box">
+        "Excellent travail, j'ai validé mon mémoire avec une bonne note!"
+        - Etudiant en licence  
+    </div>
+
+    <div class="box">
+        "Service rapide et professionnel, je recommande."  
+    </div>
+</section>
+
+<section id="contact">
+    <h2>📞 Contact</h2>
+    <div class="box">
+        Cliquez pour discuter directement :
+        <br><br>
+        <a class="btn" href="https://wa.me/22951976427?text=Bonjour%20je%20veux%20vos%20services">Discuter sur WhatsApp</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Betcha Services
+</footer>
+
+</body>
+</html>
